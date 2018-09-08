@@ -1,13 +1,12 @@
 import React from 'react';
 import ModuleContent from '../../components/ModuleContent';
 
-const CeaseView = () => {
+const HomeView = () => {
     return (
         <ModuleContent>
-            <h1>This is Sales view</h1>
-            <p>Content goes here</p>
+            <p>This is home page</p>
         </ModuleContent>
     );
 };
 
-export default CeaseView;
+export default HomeView;

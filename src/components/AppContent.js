@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Navbar from './Navbar';
 
 const AppContentStyled = styled.div`
     height: 100%;
@@ -10,6 +11,7 @@ const AppContentStyled = styled.div`
 const AppContent = (props) => {
     return (
         <AppContentStyled className='offset-md-2 col-md-8'>
+            <Navbar />
             {props.children}
         </AppContentStyled>
     );
